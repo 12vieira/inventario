@@ -1,7 +1,7 @@
 import PromptSync from "prompt-sync";
 //import utils from "./utils/format-util.js";
 import utils from "../utils/format-util.js";
-
+import produtoView from "./produtos-view.js";
 //import usuarioView from "./usuario-view.js";
 //import livroView from "./livro-view.js";
 
@@ -23,7 +23,7 @@ const menuPrincipal = () => {
         case "0":
             process.exit();
         case "1":
-            //produtoView();
+            produtoView();
             break;
         case "2":
             //categoriaView();

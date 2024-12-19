@@ -5,8 +5,6 @@
 relatórios.
  */
 
-//import menuPrincipal from "./views/mainView";
-
-import menuPrincipal from "./views/mainView.js";
+import menuPrincipal from "./views/main-view.js";
 
 menuPrincipal();

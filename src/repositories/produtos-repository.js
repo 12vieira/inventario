@@ -32,10 +32,10 @@ const produtosRepository = {
      * Salva um novo produto no banco de dados.
      * @param {Object} produto - O produto a ser salvo.
      * @param {string} produto.id - O id do produto.
-     * @param {string} produto.titulo - O título do produto.
-     * @param {string} produto.autor - O autor do produto.
-     * @param {string} produto.editora - A editora do produto.
-     * @param {boolean} produto.emprestado - Se o produto está emprestado ou não.
+     * @param {string} produto.nome - O título do produto.
+     * @param {string} produto.categoria - O autor do produto.
+     * @param {string} produto.quantidade - A editora do produto.
+     * @param {boolean} produto.preco - Se o produto está emprestado ou não.
      * @returns {Object} - O produto salvo.
      */
     addProduto: (produto) => {
